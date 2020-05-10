@@ -1,0 +1,382 @@
+/**
+* @author    Ninodezign.com http://www.ninodezign.com
+* @copyright Copyright (C) 2016 Ninodezign.com. All rights reserved.
+* @license   Ninodezign.com Proprietary License
+*/
+/* ============================== DEFAULT HTML ============================== */
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700';
+@import 'https://fonts.googleapis.com/css?family=Mr+De+Haviland';
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #263238;
+	font-size: 13px;
+	font-weight: 300;
+	position: relative;
+	font-family: 'Roboto Slab', serif;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,section,main { 
+    display: block;
+}
+hr {
+	border-left: none;
+	border-right: none;
+    border-top: 1px solid #E5E5E5;
+    color: #F4F4F4;
+    margin: 20px 0;
+    padding: 0;
+}
+/* =============== DEFAULT HTML - LINK STYLES =============== */
+a {
+	text-decoration: none;
+	outline: none;
+	color: #263238;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+		 -o-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+}
+a:hover {
+	color: #666;
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+a:focus {
+	outline: none;
+}
+a img {
+	border: none;
+}
+a[class*="glyphicon-"] {
+	text-decoration: none;
+}
+/* =============== DEFAULT HTML - HEADING STYLES =============== */
+h1, h2, h3, h4, h5, h6 {
+	margin: 5px 0 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1.4;
+}
+/* =============== DEFAULT HTML - LIST STYLES =============== */
+ul, ul li,
+ol, ol li,
+p, form, input {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin-bottom: 10px;
+}
+ul, ul li {
+	list-style: none;
+}
+/* =============== DEFAULT HTML - IMAGES STYLES =============== */
+img {
+	border: none;
+	max-width: 100%;
+}
+img.image-left {
+	float: left;
+	margin-right: 5px;
+}
+img.img-full-width {
+	width: 100%;
+}
+/* =============== PREDEFINED CONTENT ALIGN =============== */
+.margin-left {
+	margin-left: 1em !important;
+	margin-right: 0;
+}
+.margin-right {
+	margin-left: 0;
+	margin-right: 1em !important;
+}
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - GENERAL LAYOUT =============== */
+[layout="row"] {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.fsr {
+	flex-direction: column;
+	-webkit-flex-shrink: 0;
+	flex-shrink: 0;
+}
+.fg {
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+}
+.fw {
+	/* flex-direction: column; */
+	flex-wrap: wrap;
+	min-height: 100vh;
+}
+.fw-inner {
+	flex-direction: column;
+}
+.verticalCenter {
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+}
+/* =============== NAVIGATION =============== */
+#mainMenu {
+	margin: 15px 0;
+}
+#mainMenu ul {
+	text-align: right;
+}
+#mainMenu ul li {
+	display: inline-block;
+}
+#mainMenu ul li a {
+	display: block;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+#mainMenu ul li .nino-icon {
+	font-size: 18px;
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+}
+/* =============== LAYOUT - HEADER AREA =============== */
+header {
+	text-align: center;
+	padding: 35px 20px;
+	margin-bottom: 35px;
+	background: #263238;
+}
+header .avatar {
+	width: 150px;
+	border-radius: 50%;
+	background: #37474f;
+	padding: 4px;
+	margin-bottom: 10px;
+}
+header .name {
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+header .regency {
+	font-size: 14px;
+	text-transform: capitalize;
+}
+/* =============== LAYOUT - CONTENT AREA =============== */
+#nino-cvWrap {
+	max-width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	margin-bottom: 20px;
+}
+#nino-leftSide {
+	width: 310px;
+	background: #37474f;
+	color: #fdfdfe;
+}
+#nino-rightSide {
+	border: 1px solid #d2d2d2;
+	width: calc(100% - 310px);
+}
+main {
+	padding: 30px 40px;
+}
+section {
+	margin-bottom: 50px;
+}
+section:last-child {
+	margin-bottom: 0;
+}
+section .nino-sectionHeading {
+	font-size: 16px;
+	font-weight: 700;
+}
+section .nino-sectionHeading .nino-icon {
+	background: #263238;
+	padding: 8px;
+	border-radius: 50%;
+	margin-right: 10px;
+	font-size: 20px;
+	color: #fff;
+}
+section .nino-sectionContent > .inner {
+	margin-left: 55px;
+}
+#nino-mainContent section .nino-sectionHeading {
+	font-size: 24px;
+}
+#nino-mainContent section .nino-sectionHeading .nino-icon {
+	font-size: 26px;
+}
+article:last-child {
+	margin-bottom: 0;
+}
+article .nino-articleThumb {
+	margin-bottom: 15px;
+	text-align: center;
+}
+article .nino-articleTitle {
+	font-size: 20px;
+	margin: 0 0 5px;
+}
+article .nino-articleMeta {
+	color: #90a4ae;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+article .nino-articleMeta span {
+	display: inline-block;
+	margin-right: 10px;
+}
+article .nino-articleMeta .nino-icon {
+	font-size: 17px;
+	margin-right: 5px;
+	position: relative;
+	top: 2px;
+}
+/* =============== LEFT SIDE =============== */
+#nino-leftSide a {
+	color: #6dffec;
+}
+#nino-leftSide .nino-listWithIcon > li {
+	margin-bottom: 10px;
+}
+#nino-leftSide .nino-listWithIcon .nino-icon {
+	background: #fff;
+	color: #263238;
+	padding: 5px;
+	border-radius: 50%;
+	margin: 0 15px 0 4px;
+	font-size: 14px;
+}
+#nino-leftSide section {
+	margin-bottom: 35px;
+	padding: 0 30px;
+}
+#nino-leftSide .nino-mySkill .progress {
+	margin: 0;
+	height: 8px;
+}
+#nino-leftSide .nino-mySkill .progress-bar {
+	background-color: #30dd43;
+}
+/* =============== MAIN PAGE =============== */
+#nino-mainContent .nino-languages {
+	text-align: center;
+}
+#nino-mainContent .nino-languages .languageName {
+	margin: 15px 0 5px;
+}
+#nino-mainContent .nino-languages .stars {
+	margin-bottom: 20px;
+}
+#nino-mainContent .nino-languages .stars .nino-icon {
+	font-size: 20px;
+}
+/* =============== PORTFOLIO PAGE =============== */
+#nino-portfolio article {
+	margin-bottom: 0;
+}
+#nino-portfolio .nino-articleTitle {
+	font-weight: 400;
+	text-transform: none;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+/* =============== COVER LETTER PAGE =============== */
+#nino-coverLetter .nino-coverLetterHeader {
+	margin: 30px 0;
+	font-size: 14px;
+}
+#nino-coverLetter .nino-coverLetterHeader .date {
+	color: #ec2e26;
+	font-weight: 400;
+}
+#nino-coverLetter .nino-coverLetterContent {
+	margin-bottom: 50px;
+}
+#nino-coverLetter .nino-coverLetterFooter {
+	font-weight: 400;
+	font-size: 15px;
+}
+#nino-coverLetter .nino-coverLetterFooter .nino-sign {
+	color: #ed2b24;
+	font-size: 35px;
+	font-weight: 700;
+	font-family: 'Mr De Haviland', cursive;
+}
+/* =============== GO TO TOP =============== */
+#nino-scrollToTop {
+	width: 50px; 
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	text-indent: -99999em;
+	display: none;
+	cursor: pointer;
+	z-index: 2;
+	background: #37474f  url(../images/go-to-top.png) center center no-repeat;
+}
+#nino-scrollToTop:hover {
+	text-decoration: none;
+	background-color: #333;
+}
+/* ============================================================ RESPONSIVE ============================================================ */
+@media (max-width: 1200px) {
+	
+}
+@media (max-width: 991px) {
+
+	/* =============== LAYOUT =============== */
+	#nino-leftSide,
+	#nino-rightSide {
+		width: 100%;
+	}
+	/* =============== LEFT SIDE =============== */
+	header,
+	#nino-leftSide section {
+		margin: 0;
+		border: 1px solid rgba(255, 255, 255, 0.25);
+		border-width: 0 1px 1px 0;
+	}
+	#nino-leftSide section {
+		padding: 35px 30px;
+	}
+}
+@media (max-width: 767px) {
+	
+	/* =============== LAYOUT =============== */
+	main {
+	    padding: 30px 20px;
+	}
+	/* =============== LEFT SIDE =============== */
+	header,
+	#nino-leftSide section {
+		margin-bottom: 35px;
+		border: none;
+	}
+	#nino-leftSide section {
+	    padding: 0 30px;
+	}
+	#nino-leftSide .nino-mySkill {
+		border: none;
+	}
+}
+@media (max-width: 640px) {
+	
+}
+@media (max-width: 480px) {
+	
+}
