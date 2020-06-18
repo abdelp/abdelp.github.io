@@ -220,6 +220,7 @@ header .social-icon li a
 	{
 		color: #28a7e9;
 		font-weight: bold;
+		-webkit-text-stroke: 1px #555;
 	}
 #home .btn
 	{
@@ -240,10 +241,10 @@ header .social-icon li a
 		background: #28a7e9;
 		border-color: transparent;
 	}
-.element {
+/* .element {
 	height: 60px;
 	font-size: 16px;
-}
+} */
 /* end home */
 
 /* start about */
