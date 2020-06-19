@@ -430,6 +430,14 @@ header .social-icon li a {
   opacity: 0.8;
 }
 
+#portfolio .project-footer li img {
+  height: 30px;
+}
+
+#portfolio .nav {
+  display: flex;
+}
+
 /* end portfolio */
 
 /* start contact */
