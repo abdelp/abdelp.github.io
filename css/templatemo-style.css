@@ -235,7 +235,8 @@ header .social-icon li a {
   -webkit-text-stroke: 1px #555;
 }
 
-#home .btn {
+#home .btn,
+.project-links .btn {
   background: transparent;
   border-radius: 2px;
   color: #fff;
@@ -249,7 +250,8 @@ header .social-icon li a {
   transition: all 0.4s ease-in-out;
 }
 
-#home .btn:hover {
+#home .btn:hover,
+.project-links .btn:hover {
   background: #28a7e9;
   border-color: transparent;
 }
@@ -410,13 +412,13 @@ header .social-icon li a {
   display: flex;
 }
 
-#portfolio .portfolio-thumb-footer li img {
+#portfolio .project-lang li img {
   height: 30px;
 }
 
-/* .portfolio-thumb {
-  padding: 5px 0;
-} */
+.project {
+  margin-bottom: 15px;
+}
 
 /* end portfolio */
 
@@ -557,6 +559,10 @@ header .social-icon li a {
     padding: 40px 10px 20px 20px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
+  }
+
+  .project-links {
+    text-align: center;
   }
 }
 
