@@ -497,13 +497,19 @@ header .social-icon li a {
 /* end copyright */
 
 /* start social icon */
+.sm-container {
+  /* display: flex;
+  align-items: center; */
+
+}
+
 .social-icon {
   position: relative;
   padding: 0;
   margin: 0;
 }
 
-.social-icon h4 {
+.sm-container h4 {
   display: inline-block;
   padding-right: 20px;
 }
@@ -608,6 +614,13 @@ header .social-icon li a {
     padding-bottom: 5px;
     line-height: 35px;
   }
+
+  .project-links .btn {
+    font-size: 11px;
+    width: 160px;
+    height: 50px;
+    padding-top: 16px;
+  }
 }
 
 /* end 768 media quires */
@@ -628,5 +641,4 @@ header .social-icon li a {
     font-size: 32px;
   }
 }
-
 /* end 360 media quires */
