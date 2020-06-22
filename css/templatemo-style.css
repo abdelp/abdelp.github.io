@@ -15,11 +15,6 @@ a {
   color: #47c6f8;
 }
 
-header a {
-  color: #999;
-  font-weight: 600;
-}
-
 a:hover {
   color: #0ff;
 }
@@ -159,10 +154,9 @@ header span {
   padding-left: 4px;
 }
 
-.social-icon {
-  position: relative;
-  padding: 0;
-  margin: 0;
+header a {
+  color: #999;
+  font-weight: 600;
 }
 
 header .social-icon {
@@ -268,29 +262,6 @@ header .social-icon li a {
 /* end home */
 
 /* start about */
-
-#service .fa {
-  border: 1px solid #fff;
-  border-radius: 2px;
-  color: #fff;
-  font-size: 50px;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
-}
-
-#contact address .fa {
-  border: 1px solid #fff;
-  border-radius: 2px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
 #about .media-heading-wrapper {
   padding-bottom: 32px;
 }
@@ -361,9 +332,15 @@ header .social-icon li a {
   padding: 40px;
 }
 
-.social-icon h4 {
-  display: inline-block;
-  padding-right: 20px;
+#service .fa {
+  border: 1px solid #fff;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
 }
 
 #service h4 {
@@ -384,14 +361,14 @@ header .social-icon li a {
   padding: 0;
 }
 
-.portfolio-thumb,
+/* .portfolio-thumb, */
 .portfolio-overlay {
   max-width: 450px;
 }
 
 #portfolio .portfolio-thumb {
   overflow: hidden;
-  padding: 0;
+  padding: 10px 0;
   margin: 0 auto;
 }
 
@@ -427,16 +404,19 @@ header .social-icon li a {
 
 #portfolio .portfolio-thumb:hover .portfolio-overlay {
   cursor: pointer;
-  opacity: 0.8;
-}
-
-#portfolio .project-footer li img {
-  height: 30px;
 }
 
 #portfolio .nav {
   display: flex;
 }
+
+#portfolio .portfolio-thumb-footer li img {
+  height: 30px;
+}
+
+/* .portfolio-thumb {
+  padding: 5px 0;
+} */
 
 /* end portfolio */
 
@@ -485,6 +465,22 @@ header .social-icon li a {
   padding-bottom: 10px;
 }
 
+#contact address span {
+  display: block;
+  padding-bottom: 30px;
+}
+
+#contact address .fa {
+  border: 1px solid #fff;
+  border-radius: 2px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
 /* end contact */
 
 /* start copyright */
@@ -499,10 +495,34 @@ header .social-icon li a {
 /* end copyright */
 
 /* start social icon */
+.social-icon {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icon h4 {
+  display: inline-block;
+  padding-right: 20px;
+}
 
 .social-icon li {
   display: inline-block;
   list-style: none;
+}
+
+.social-icon li a {
+  border: 1px solid #fff;
+  border-radius: 2px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  margin-right: 10px;
 }
 
 .social-icon li a:hover {
