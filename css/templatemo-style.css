@@ -3,8 +3,12 @@ Awesome Template
 http://www.templatemo.com/preview/templatemo_450_awesome
 */
 
+:root {
+  --main: #28A7E9;
+}
+
 body {
-  background: #303030;
+  background: #000530;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -12,7 +16,7 @@ body {
 }
 
 a {
-  color: #47c6f8;
+  color: var(--main);
 }
 
 a:hover {
@@ -27,7 +31,7 @@ h2 {
 }
 
 h2 span {
-  color: #28a7e9;
+  color: var(--main);
   font-weight: bold;
 }
 
@@ -145,7 +149,7 @@ header {
 }
 
 header .fa {
-  color: #28a7e9;
+  color: var(--main);
 }
 
 header span {
@@ -197,7 +201,7 @@ header .social-icon li a {
 }
 
 .navbar-default .navbar-nav > li > a.current {
-  color: #28a7e9;
+  color: var(--main);
 }
 
 .templatemo-nav {
@@ -230,7 +234,7 @@ header .social-icon li a {
 }
 
 #home h1 span {
-  color: #28a7e9;
+  color: var(--main);
   font-weight: bold;
   -webkit-text-stroke: 1px #555;
 }
@@ -252,7 +256,7 @@ header .social-icon li a {
 
 #home .btn:hover,
 .project-links .btn:hover {
-  background: #28a7e9;
+  background: var(--main);
   border-color: transparent;
 }
 
@@ -310,7 +314,7 @@ header .social-icon li a {
 }
 
 #team .team-wrapper .team-des span {
-  color: #28a7e9;
+  color: var(--main);
   display: block;
   font-weight: bold;
   padding-bottom: 12px;
@@ -326,11 +330,11 @@ header .social-icon li a {
 }
 
 #service .col-md-4:hover {
-  background: #505050;
+  background: #111111;
 }
 
 #service .active {
-  background: #505050;
+  background: rgb(0, 5, 48);
   padding: 40px;
 }
 
@@ -346,7 +350,7 @@ header .social-icon li a {
 }
 
 #service h4 {
-  color: #28a7e9;
+  color: var(--main);
   font-weight: 600;
   padding-top: 10px;
   padding-bottom: 14px;
@@ -375,7 +379,7 @@ header .social-icon li a {
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay {
-  background: #28a7e9;
+  background: var(--main);
   top: 0;
   left: 0;
   right: 0;
@@ -424,12 +428,12 @@ header .social-icon li a {
 
 /* start contact */
 #contact {
-  background: #202020;
+  background: #111111;
 }
 
 #contact .form-control {
   background: transparent;
-  border: 1px solid #28a7e9;
+  border: 1px solid var(--main);
   border-radius: 2px;
   box-shadow: none;
   color: #fff;
@@ -446,7 +450,7 @@ header .social-icon li a {
 }
 
 #contact input[type="submit"] {
-  background: #28a7e9;
+  background: var(--main);
   font-weight: bold;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -534,7 +538,7 @@ header .social-icon li a {
 }
 
 .social-icon li a:hover {
-  background: #28a7e9;
+  background: var(--main);
   border-color: transparent;
 }
 
@@ -553,7 +557,7 @@ header .social-icon li a {
   }
 
   #portfolio .portfolio-thumb .portfolio-overlay {
-    background: #28a7e9;
+    background: var(--main);
     top: 0;
     left: 0;
     right: 0;
