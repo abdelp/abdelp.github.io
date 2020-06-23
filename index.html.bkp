@@ -6,71 +6,10 @@
 
 
 
-	<!-- start navigation -->
-	<nav class="navbar navbar-default templatemo-nav" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon icon-bar"></span>
-					<span class="icon icon-bar"></span>
-					<span class="icon icon-bar"></span>
-				</button>
-				<a href="#" class="navbar-brand">Abdel Pérez</a>
-			</div>
-			<div class="collapse navbar-collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#top">HOME</a></li>
-					<li><a href="#service">SERVICE</a></li>
-					<li><a href="#portfolio">PORTFOLIO</a></li>
-					<li><a href="#contact">CONTACT</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<!-- end navigation -->
 
-	<!-- start home -->
-	<section id="home">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-offset-2 col-md-8">
-					<h1 class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">Hi! I'm <span>Abdel Pérez</span></h1>
-					<a data-scroll href="#service" class="btn btn-default wow fadeInUp" data-wow-offset="50"
-						data-wow-delay="0.6s">GET STARTED</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- end home -->
 
-	<!-- start service -->
-	<section id="service">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">MY <span>PROFESSIONAL</span> SKILLS</h2>
-				</div>
-				<div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-					<i class="fa fa-laptop"></i>
-					<h4>Full Stack Development</h4>
-					<p>Ruby on Rails, PostgreSql, Javascript, Bootstrap, SASS</p>
-				</div>
-				<div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">
-					<i class="fa fa-cloud"></i>
-					<h4>Database Administration</h4>
-					<p>I have a vast experience working as a Database Administrator at a well-known telephone company.</p>
-				</div>
-				<div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-					<i class="fa fa-cog"></i>
-					<h4>UX Design</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut
-						nisi id leo molestie. Adipiscing vitae vel quam proin eget mauris eget. Lorem ipsum dolor sit amet,
-						consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- end servie -->
+
+
 
 
 
