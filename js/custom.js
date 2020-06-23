@@ -19,11 +19,9 @@ $(function() {
     $(window).scroll(function(){
         if($(this).scrollTop()>58){
             $(".templatemo-nav").addClass("sticky");
-            // alert(console.log.toString());
         }
         else{
             $(".templatemo-nav").removeClass("sticky");
-            // alert(console.log.toString());
         }
     });
     
@@ -40,23 +38,3 @@ $(function() {
     -----------------*/
     new WOW().init();
 });
-
-// $(document).ready(function (e) {
-//     alert(console.log.toString());
-// })
-
-// alert(console.log.toString());
-// /* start preloader */
-// $(window).on('load', function() {
-//     alert(console.log.toString());
-// 	$('.preloader').fadeOut(1000); // set duration in brackets    
-// });
-// /* end preloader */
-
-// $(window).bind("load", function() {   
-//     console.log('cargo2');   
-//     setTimeout(function() {
-//    $('.preloader').fadeOut(function() {           
-//       });
-//       }, 1000);            
-//   });

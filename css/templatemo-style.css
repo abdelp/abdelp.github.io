@@ -180,7 +180,8 @@ header .social-icon li a {
 /* start nagivation */
 
 .navbar {
-  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .navbar-default {
@@ -196,6 +197,7 @@ header .social-icon li a {
   height: 70px;
   line-height: 40px;
   padding: 12px 0 0 12px;
+  color: rgb(119, 119, 119);
 }
 
 .navbar-light .navbar-nav li a {
