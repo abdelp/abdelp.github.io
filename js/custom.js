@@ -1,22 +1,14 @@
 /* HTML document is loaded. DOM is ready.
 -------------------------------------------*/
-$(function(){
 
-    /* start typed element */
-    //http://stackoverflow.com/questions/24874797/select-div-title-text-and-make-array-with-jquery
-    var subElementArray = $.map($('.sub-element'), function(el) { return $(el).text(); });    
-    $(".element").typed({
-        strings: subElementArray,
-        typeSpeed: 30,
-        contentType: 'html',
-        showCursor: false,
-        loop: true,
-        loopCount: true,
-    });
-    /* end typed element */
+function fade() {
+    $('.preloader').fadeOut(1000);
+}
 
-    /* Smooth scroll and Scroll spy (https://github.com/ChrisWojcik/single-page-nav)    
-    ---------------------------------------------------------------------------------*/ 
+//     /* Smooth scroll and Scroll spy (https://github.com/ChrisWojcik/single-page-nav)    
+//     ---------------------------------------------------------------------------------*/ 
+
+$(function() {
     $('.templatemo-nav').singlePageNav({
         offset: $(".templatemo-nav").height(),
         filter: ':not(.external)',
@@ -27,9 +19,11 @@ $(function(){
     $(window).scroll(function(){
         if($(this).scrollTop()>58){
             $(".templatemo-nav").addClass("sticky");
+            // alert(console.log.toString());
         }
         else{
             $(".templatemo-nav").removeClass("sticky");
+            // alert(console.log.toString());
         }
     });
     
@@ -47,8 +41,22 @@ $(function(){
     new WOW().init();
 });
 
-/* start preloader */
-$(window).load(function(){
-	$('.preloader').fadeOut(1000); // set duration in brackets    
-});
-/* end preloader */
+// $(document).ready(function (e) {
+//     alert(console.log.toString());
+// })
+
+// alert(console.log.toString());
+// /* start preloader */
+// $(window).on('load', function() {
+//     alert(console.log.toString());
+// 	$('.preloader').fadeOut(1000); // set duration in brackets    
+// });
+// /* end preloader */
+
+// $(window).bind("load", function() {   
+//     console.log('cargo2');   
+//     setTimeout(function() {
+//    $('.preloader').fadeOut(function() {           
+//       });
+//       }, 1000);            
+//   });
