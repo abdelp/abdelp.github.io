@@ -206,7 +206,7 @@ header .social-icon li a {
   line-height: 40px;
 }
 
-.navbar-nav > li > a.current {
+.navbar-light .navbar-nav .nav-link.current {
   color: var(--main);
 }
 
