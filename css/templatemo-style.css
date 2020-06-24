@@ -8,6 +8,7 @@ http://www.templatemo.com/preview/templatemo_450_awesome
 }
 
 body {
+  max-width: 100%;
   background: #15202B;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -214,6 +215,7 @@ header .social-icon li a {
   border-radius: 0;
   width: 100%;
   z-index: 1000;
+  max-width: 100%;
 }
 
 .sticky {
@@ -325,6 +327,7 @@ header .social-icon li a {
 /* start contact */
 #contact {
   background: #111111;
+  overflow: hidden;
 }
 
 #contact .form-control {
