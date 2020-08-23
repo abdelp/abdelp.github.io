@@ -152,8 +152,8 @@ img.img-full-width {
 /* =============== LAYOUT - HEADER AREA =============== */
 header {
 	text-align: center;
-	padding: 35px 20px;
-	margin-bottom: 35px;
+	padding: 35px 20px 10px 20px;
+	margin-bottom: 10px;
 	background: #263238;
 }
 header .avatar {
@@ -209,7 +209,7 @@ section .nino-sectionHeading .nino-icon {
 	color: #fff;
 }
 section .nino-sectionContent > .inner {
-	margin-left: 55px;
+	margin-left: 15px;
 }
 #nino-mainContent section .nino-sectionHeading {
 	font-size: 24px;
@@ -259,7 +259,7 @@ article .nino-articleMeta .nino-icon {
 	font-size: 14px;
 }
 #nino-leftSide section {
-	margin-bottom: 35px;
+	margin-bottom: 10px;
 	padding: 0 30px;
 }
 #nino-leftSide .nino-mySkill .progress {
