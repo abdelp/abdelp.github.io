@@ -4,7 +4,7 @@
 * @license   Ninodezign.com Proprietary License
 */
 /* ============================== DEFAULT HTML ============================== */
-@import 'https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700';
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
 @import 'https://fonts.googleapis.com/css?family=Mr+De+Haviland';
 html, body {
 	margin: 0;
@@ -12,10 +12,10 @@ html, body {
 }
 body {
 	color: #263238;
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: 300;
 	position: relative;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', serif;
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,section,main { 
     display: block;
@@ -78,7 +78,7 @@ ul, ul li {
 /* =============== DEFAULT HTML - IMAGES STYLES =============== */
 img {
 	border: none;
-	max-width: 100%;
+	width: 30px;
 }
 img.image-left {
 	float: left;
@@ -86,6 +86,10 @@ img.image-left {
 }
 img.img-full-width {
 	width: 100%;
+}
+
+.lang {
+	align-items: center;
 }
 /* =============== PREDEFINED CONTENT ALIGN =============== */
 .margin-left {
@@ -184,6 +188,7 @@ header .regency {
 	color: #fdfdfe;
 }
 #nino-rightSide {
+	font-weight: 400;
 	border: 1px solid #d2d2d2;
 	width: calc(100% - 310px);
 }
