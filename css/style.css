@@ -1,0 +1,24 @@
+/* Header */
+
+.header {
+  background-color: #191a1d;
+}
+
+.site-banner--dark {
+  padding-bottom: 50px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
+}
+
+.site-banner--dark {
+  border-bottom: none;
+  background-color: #191a1d;
+}
+
+.site-banner--dark .site-banner__title {
+  color: #fff;
+}
+
+.site-banner--dark .site-banner__tagline,
+.site-banner--dark .site-banner__subtitle {
+  color: #ababab;
+}
