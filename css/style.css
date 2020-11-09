@@ -9,7 +9,9 @@
 }
 
 .header__inner,
-.site-banner__inner {
+.site-banner__inner,
+#projects,
+#services {
   max-width: 1430px;
   margin-right: auto;
   margin-left: auto;
@@ -23,7 +25,8 @@
   color: white;
 }
 
-.site-banner--dark {
+.site-banner--dark,
+.site-cta {
   margin-top: -1px;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
@@ -42,6 +45,51 @@
   color: #ababab;
 }
 
-.site-banner__inner {
+.site-banner__inner,
+#projects,
+#services {
   padding: 0.5rem 1rem;
+}
+
+.section-title {
+  padding-bottom: 15px;
+  border-bottom: 4px solid #f6f6f6;
+  color: #919191;
+}
+
+.btn {
+  border-radius: 40px;
+}
+
+/* My Projects Section */
+
+.row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.project-lang li img {
+  height: 30px;
+}
+
+.project .row .col-md-6:first-child img {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05), 0 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.img-fluid {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.project-links {
+  margin: 10px 0;
+}
+
+.service-card {
+  height: 100%;
+  border-radius: 6px;
+  border-top: 6px solid #4b6cc1;
+  background: #f6f6f6;
+  padding: 20px;
 }
