@@ -1,17 +1,36 @@
+* {
+  font-family: "Rubik", Helvetica, Arial, sans-serif;
+}
+
 /* Header */
 
 .header {
   background-color: #191a1d;
 }
 
-.site-banner--dark {
-  padding-bottom: 50px;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
+.header__inner,
+.site-banner__inner {
+  max-width: 1430px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
 }
 
 .site-banner--dark {
+  margin-top: -1px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
   border-bottom: none;
   background-color: #191a1d;
+  padding-top: 1px;
+  padding-bottom: 50px;
 }
 
 .site-banner--dark .site-banner__title {
@@ -21,4 +40,8 @@
 .site-banner--dark .site-banner__tagline,
 .site-banner--dark .site-banner__subtitle {
   color: #ababab;
+}
+
+.site-banner__inner {
+  padding: 0.5rem 1rem;
 }
