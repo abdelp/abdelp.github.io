@@ -507,6 +507,10 @@ header .social-icon li a {
   }
 }
 
+.img-fluid {
+  width: 100%;
+}
+
 /* end 768 media quires */
 
 /* start 360 media quires */
