@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
+		<link rel="stylesheet" href="css/fontawesome.min.css">
+		<script src="https://kit.fontawesome.com/6a03050c64.js" crossorigin="anonymous"></script>
+
+    <title>Abdel Pérez's Portfolio</title>
   </head>
   <body>
     <header class="header">
       <nav class="header__inner navbar navbar-expand-lg">
-        <a class="navbar-brand navbar-dark" href="#">Abdel Pérez</a>
+        <a class="navbar-brand navbar-dark" href="#"></a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,13 +27,13 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
             </li>
           </ul>
         </div>
@@ -40,14 +43,24 @@
     <main class="main">
       <section class="site-banner site-banner--dark">
         <div class="site-banner__inner">
-          <div class="site-banner__content">
-            <h1 class="site-banner__title">
-              Hi, I'm Abdel
+          <div class="site-banner__content text-center">
+            <h1 class="site-banner__title display-3">
+              Hi there, I'm Abdel
             </h1>
             <h2 class="site-banner__subtitle">
-              A Full-stack developer
+              A Full-stack developer who started coding in 2011. I have several years of experience working mainly with SQL, HTML, JavaScript, CSS, Bash scripts.
             </h2>
-            <a class="btn btn-primary">My Projects</a>
+            <p class="site-banner__extra">You can reach me and check my projects and contributions on my social media accounts:</p>
+            <div class="sm-container">
+              <ul class="" style="display:flex; justify-content: center; list-style-type: none;">
+                <li class="nav-item"><a href="mailto:abdel.perezpy@gmail.com" target="_blank" class="fas fa-envelope nav-link"></a></li>
+                <li class="nav-item"><a href="https://github.com/abdelp" target="_blank" class="fab fa-github nav-link"></a></li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/abdel-perez" target="_blank" class="fab fa-linkedin nav-link"></a></li>
+                <li class="nav-item"><a href="https://twitter.com/AbdelPerez11" target="_blank" class="fab fa-twitter nav-link"></a></li>
+                <li class="nav-item"><a href="https://stackoverflow.com/users/6121888/abdel-p" target="_blank" class="fab fa-stack-overflow nav-link"></a></li>
+              </ul>
+            </div>
+            <p>Below are some of my favourites.</p>
           </div>
         </div>
       </section>
@@ -65,7 +78,7 @@
                 </div>
   
                 <div class="col-md-6">
-                  <h3>ClockRoR</h3>
+                  <h3 class="project-title">ClockRoR</h3>
                   <p>With ClockRoR you can track your activities, assign them to a group, and share them with other users.</p>
                   <div class="project-lang">
                     <ul class="nav">
@@ -85,14 +98,14 @@
               </div>
             </div>
   
-            <div class="project col-md-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+            <div class="project col-md-12">
               <div class="row">
                 <div class="col-md-6">
                   <img src="images/weather-app.gif" class="img-fluid" alt="portfolio img 2">
                 </div>
   
                 <div class="col-md-6">
-                  <h3>Weather App</h3>
+                  <h3 class="project-title"s>Weather App</h3>
                   <p>A basic Twitter App Clone to create posts, like it, share it.</p>
                   <div class="project-lang">
                     <ul class="nav">
@@ -182,101 +195,149 @@
       </section>
 
       <section id="services">
-        <div class="row row-eq-height">
-          <div class="col-md-12">
-            <h3 class="section-title">MY SERVICES</h3>
-          </div>
-          <div class="col-md-4">
-            <div class="service-card">
-              <i class="fa fa-laptop"></i>
-              <h4>Full-Stack Development</h4>
-              <p>Ruby on Rails, PostgreSql, Javascript, Bootstrap, SASS</p>
+        <div class="content">
+          <div class="row row-eq-height">
+            <div class="col-md-12">
+              <h3 class="section-title">MY SERVICES</h3>
+            </div>
+            <div class="col-md-6">
+              <div class="service-card text-center">
+                <i class="fa fa-laptop"></i>
+                <h4>Full-Stack Development</h4>
+                <p>I build web systems with Ruby on Rails, PostgreSQL, JavaScript, React, HTML, Bootstrap among other tools to make the projects efficient, easy to understand and maintain</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-card text-center">
+                <i class="fa fa-cloud"></i>
+                <h4>Database Administration</h4>
+                <p>I have vast experience working with highly concurred systems as a database administrator for a well-known telephone company with the official PostgreSQL support team</p>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="articles">
+        <div class="content">
+          <div class="row row-eq-height">
+            <div class="col-md-12">
+              <h3 class="section-title">MY ARTICLES</h3>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <a href="https://hackernoon.com/how-to-integrate-selenium-with-capybara-iq2n30dg" target="_blank">
+                  <div class="card-header">
+                    <img class="card-img-top" src="/images/capybara.jpg" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                    <h3>How to Integrate Selenium with Capybara</h3>
+                    <p>June 6th, 2020</p>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="service-card">
-              <i class="fa fa-cloud"></i>
-              <h4>Database Administration</h4>
-              <p>I have a vast experience working as a Database Administrator at a well-known telephone company.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-card">
-              <i class="fa fa-cog"></i>
-              <h4>UX Design</h4>
-              <p>Le doy una gran importancia al mantenimiento de un ambiente de trabajo respestuoso y colaborativo.</p>
-            </div>
-          </div>
+        </div>
       </section>
 
       <section class="site-cta">
-        <div class="site-cta__inner">
-          <div class="grid grid--m-1">
-            <div class="grid__col grid__col--8">
-              <div class="content-styles spacing-tiny-bottom">
-                <h2 class="site-cta__title">
-                  Let's Work Together
-                </h2>
-                <p class="site-cta__txt">
-                  Have a project you'd like to discuss?
-                </p>
-              </div>
-              <a class="btn btn--large btn--hover-light" href="/contact/">
-                Get in Touch
-              </a>
+        <div class="content">
+          <div class="site-cta__inner row">
+            <div class="col-md-6">
+              <h3 class="display-4 text-white">Let's work together!</h3>
+              <p class="site-cta__txt">
+                Have a project you'd like to discuss?
+              </p>
             </div>
-            <!-- <div class="grid__col grid__col--4 grid__col--v-center">
-              <ul class="icon-list icon-list--light">
-                <li class="icon-list__item">
-                  <span class="icon-list__img">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                      <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z">
-                      </path>
-                    </svg>
-                  </span>
-                  <a href="mailto:seb@sebkay.com">
-                    seb@sebkay.com
-                  </a>
-                </li>
-                <li class="icon-list__item">
-                  <span class="icon-list__img">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                      <path d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z">
-                      </path>
-                    </svg>
-                  </span>
-                  <a href="https://dribbble.com/sebkaydesign" target="_blank" rel="noopener">
-                    On Dribbble
-                  </a>
-                </li>
-                <li class="icon-list__item">
-                  <span class="icon-list__img">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                      <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
-                      </path>
-                    </svg>
-                  </span>
-                  <a href="https://twitter.com/sebkaydesign" target="_blank" rel="noopener">
-                    On Twitter
-                  </a>
-                </li>
-                <li class="icon-list__item">
-                  <span class="icon-list__img">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                      <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
-                      </path>
-                    </svg>
-                  </span>
-                  <a href="https://www.instagram.com/sebkaydesign/" target="_blank" rel="noopener">
-                    On Instagram
-                  </a>
-                </li>
-              </ul>
-            </div> -->
+            <div class="col-md-6">
+              <div class="sm-container">
+                <ul class="icon-list icon-list--light">
+                  <li class="icon-list__item">
+                    <span class="icon-list__img">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"></path></svg>
+                    </span>
+                    <a href="mailto:abdel.perezpy@gmail.com">
+                      abdel.perezpy@gmail.com
+                    </a>
+                  </li>
+                  <li class="icon-list__item">
+                    <span class="icon-list__img">
+                      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      width="20px" height="20px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+                   <g>
+                     <g id="post-linkedin">
+                       <path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z
+                          M153,433.5H76.5V204H153V433.5z M114.75,160.65c-25.5,0-45.9-20.4-45.9-45.9s20.4-45.9,45.9-45.9s45.9,20.4,45.9,45.9
+                         S140.25,160.65,114.75,160.65z M433.5,433.5H357V298.35c0-20.399-17.85-38.25-38.25-38.25s-38.25,17.851-38.25,38.25V433.5H204
+                         V204h76.5v30.6c12.75-20.4,40.8-35.7,63.75-35.7c48.45,0,89.25,40.8,89.25,89.25V433.5z"/>
+                     </g>
+                   </g>
+                   <g>
+                   </g>
+                   <g>
+                   </g>
+                   <g>
+                   </g>
+                   <g>
+                   </g>
+                   <g>
+                   </g>
+                   <g>
+                   </g>
+                   <g>
+                   </g>
+                   <g>
+                   </g>
+                   <g>
+                   </g>
+                   <g>
+                   </g>
+                   <g>
+                   </g>
+                   <g>
+                   </g>
+                   <g>
+                   </g>
+                   <g>
+                   </g>
+                   <g>
+                   </g>
+                   </svg>
+                                       </span>
+                    <a href="https://linkedin.com/in/abdel-perez" target="_blank" rel="noopener">
+                      LinkedIn
+                    </a>
+                  </li>
+                  <li class="icon-list__item">
+                    <span class="icon-list__img">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+                    </span>
+                    <a href="https://twitter.com/AbdelPerez11" target="_blank" rel="noopener">
+                      Twitter
+                    </a>
+                  </li>
+                  <li class="icon-list__item">
+                    <span class="icon-list__img">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+                    </span>
+                    <a href="https://twitter.com/AbdelPerez11" target="_blank" rel="noopener">
+                      Github
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>
     </main>
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <p>
+          © 2020 Seb Kay. All rights reserved.
+        </p>
+      </div>
+    </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
