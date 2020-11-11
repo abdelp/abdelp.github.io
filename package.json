@@ -1,0 +1,27 @@
+{
+  "name": "my-awesome-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.17.2"
+  },
+  "devDependencies": {
+    "purgecss": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdelp/my-awesome-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdelp/my-awesome-portfolio/issues"
+  },
+  "homepage": "https://github.com/abdelp/my-awesome-portfolio#readme"
+}
