@@ -6,6 +6,10 @@
   font-family: "Rubik", Helvetica, Arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .btn-primary {
   background-color: var(--primary);
   border: none;
@@ -114,6 +118,10 @@
   margin-bottom: 30px;
 }
 
+.project-lang .nav li {
+  margin-right: 0.5em;
+}
+
 .project-lang li img {
   height: 30px;
 }
@@ -149,7 +157,7 @@
 }
 
 .service-card p {
-  color: #919191;
+  color: #646464;
 }
 
 #services .fa {
@@ -2745,6 +2753,10 @@ hr {
   }
 }
 */
+.icon-list {
+  padding-left: 0;
+}
+
 .icon-list__item {
   display: flex;
   align-items: center;
