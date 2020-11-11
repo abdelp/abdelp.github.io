@@ -157,6 +157,12 @@ html {
   padding: 20px;
 }
 
+.service-card svg {
+  width: 6em;
+  height: 6em;
+  margin: 0 auto;
+}
+
 .service-card p {
   color: #646464;
 }
