@@ -5,6 +5,7 @@ http://www.templatemo.com/preview/templatemo_450_awesome
 
 :root {
   --main: #1DA1F2;
+  
 }
 
 body {
@@ -147,6 +148,10 @@ header {
   min-height: 20px;
   padding-top: 18px;
   padding-bottom: 10px;
+}
+
+header .fa {
+  color: var(--main);
 }
 
 header .fa {
