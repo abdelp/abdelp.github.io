@@ -78,6 +78,13 @@
   font-size: 1.3em;
 }
 
+.sm-nav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+
 .site-banner__extra {
   margin-top: 3em;
 }
@@ -141,6 +148,10 @@
   padding: 20px;
 }
 
+.service-card p {
+  color: #919191;
+}
+
 #services .fa {
   border: 1px solid #191a1d;
   border-radius: 5px;
@@ -173,6 +184,10 @@
 .card a {
   text-decoration: none;
   color: #191a1d;
+}
+
+.card-body p {
+  color: #919191;
 }
 
 .site-cta {
@@ -208,6 +223,11 @@
 .fas::before {
   margin-right: 10px;
   color: var(--primary);
+}
+
+.fab:hover::before,
+.fas:hover::before {
+  color: var(--blue);
 }
 
 .site-cta .sm-container span {
@@ -443,14 +463,14 @@ a {
     font-size: 24px;
     font-size: 1.5rem
   }
+*/
 
-  .txt-small,
-  .content-styles figcaption,
-  .site-footer__inner p {
-    font-size: 20px;
-    font-size: 1.25rem
-  }
+.site-footer__inner p {
+  font-size: 20px;
+  font-size: 1.25rem;
+}
 
+/*
   .txt-medium {
     font-size: 26px;
     font-size: 1.625rem
@@ -510,14 +530,9 @@ a {
     font-size: 22px;
     font-size: 1.375rem
   }
+*/
 
-  .txt-small,
-  .content-styles figcaption,
-  .site-footer__inner p {
-    font-size: 18px;
-    font-size: 1.125rem
-  }
-
+/*
   .txt-medium {
     font-size: 24px;
     font-size: 1.5rem
@@ -2397,6 +2412,7 @@ hr {
     margin-top: -50px
   }
 }
+*/
 
 .site-footer {
   background: #101114
@@ -2406,6 +2422,7 @@ hr {
   text-align: center
 }
 
+/*
 .browser {
   padding: 10px 10px 10px;
   border-radius: 6px;

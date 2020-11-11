@@ -14,7 +14,7 @@
 
     <title>Abdel Pérez's Portfolio</title>
   </head>
-  <body>
+  <body id="top">
     <header class="header">
       <nav class="header__inner navbar navbar-expand-lg">
         <a class="navbar-brand navbar-dark" href="#"></a>
@@ -24,16 +24,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+              <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
             </li>
           </ul>
         </div>
@@ -48,11 +48,11 @@
               Hi there, I'm Abdel
             </h1>
             <h2 class="site-banner__subtitle">
-              A Full-stack developer who started coding in 2011. I have several years of experience working mainly with SQL, HTML, JavaScript, CSS, Bash scripts.
+              A Full-stack developer who started coding in 2011. I have several years of experience working mainly with SQL, HTML, JavaScript, CSS, and I've started with Ruby, Rails and React now.
             </h2>
             <p class="site-banner__extra">You can reach me and check my projects and contributions on my social media accounts:</p>
             <div class="sm-container">
-              <ul class="" style="display:flex; justify-content: center; list-style-type: none;">
+              <ul class="sm-nav">
                 <li class="nav-item"><a href="mailto:abdel.perezpy@gmail.com" target="_blank" class="fas fa-envelope nav-link"></a></li>
                 <li class="nav-item"><a href="https://github.com/abdelp" target="_blank" class="fab fa-github nav-link"></a></li>
                 <li class="nav-item"><a href="https://www.linkedin.com/in/abdel-perez" target="_blank" class="fab fa-linkedin nav-link"></a></li>
@@ -71,7 +71,7 @@
             <div class="col-md-12">
               <h3 class="section-title">MY PROJECTS</h2>
             </div>
-            <div class="project col-md-12" data-wow-offset="50" data-wow-delay="0.6s">
+            <div class="project col-md-12">
               <div class="row">
                 <div class="col-md-6">
                   <img src="images/clockror_preview.webp" class="img-fluid" alt="portfolio img 1">
@@ -118,8 +118,8 @@
                   </div>
   
                   <div class="project-links">
-                    <a href="https://enigmatic-shelf-72631.herokuapp.com/" target="_blank" class="btn btn-light wow fadeInUp">LIVE DEMO</a>
-                    <a href="https://github.com/abdelp/twitter-clone" target="_blank" class="btn btn-light wow fadeInUp">GITHUB REPO</a>
+                    <a href="https://enigmatic-shelf-72631.herokuapp.com/" target="_blank" class="btn btn-primary">LIVE DEMO</a>
+                    <a href="https://github.com/abdelp/twitter-clone" target="_blank" class="btn btn-primary">GITHUB REPO</a>
                   </div>
                 </div>
               </div>
@@ -240,7 +240,7 @@
         </div>
       </section>
 
-      <section class="site-cta">
+      <section id="contact" class="site-cta">
         <div class="content">
           <div class="site-cta__inner row">
             <div class="col-md-6">
