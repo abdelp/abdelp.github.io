@@ -10,9 +10,24 @@ html {
   scroll-behavior: smooth;
 }
 
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus {
+  outline: 0;
+}
+
 .btn-primary {
   background-color: var(--primary);
-  border: none;
+  border: 2px solid var(--primary);
+}
+
+.project-links .btn-primary:hover {
+  background-color: white;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  outline: none;
 }
 
 .navbar-toggler:focus,
