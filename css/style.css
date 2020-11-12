@@ -23,6 +23,10 @@ html {
   border: 2px solid var(--primary);
 }
 
+.project-desc a {
+  color: var(--primary);
+}
+
 .project-links .btn-primary:hover {
   background-color: white;
   border: 2px solid var(--primary);
