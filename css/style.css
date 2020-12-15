@@ -121,6 +121,10 @@ html {
   padding: 0.5rem 1rem;
 }
 
+#articles .content .row .col {
+  margin-top: 8px;
+}
+
 .section-title {
   padding-bottom: 15px;
   border-bottom: 4px solid #f6f6f6;
